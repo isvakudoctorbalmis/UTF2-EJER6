@@ -1,0 +1,44 @@
+﻿<Window
+    x:Class="UTF2_EJER6.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:UTF2_EJER6"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Opacidad imagenes un metodo"
+    Width="800"
+    Height="450"
+    Icon="boyfriends_icon-icons.com_51092.ico"
+    MouseMove="Window_MouseMove"
+    mc:Ignorable="d">
+    <Grid>
+
+        <Image
+            Name="imagen1Image"
+            Width="200"
+            Height="264"
+            Margin="40,82,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Opacity="0.5"
+            Source="episodioIV.jpg" />
+        <Image
+            Name="imagen2Image"
+            Width="200"
+            Height="264"
+            Margin="309,82,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Opacity="0.5"
+            Source="episodioV.jpg" />
+        <Image
+            Name="imagen3Image"
+            Width="200"
+            Height="264"
+            Margin="582,82,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Opacity="0.5"
+            Source="episodioVI.jpg" />
+    </Grid>
+</Window>
